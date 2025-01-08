@@ -39,12 +39,16 @@
   border: none;
   cursor: pointer;
 }
+
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 /* Header Section */
 header {
   background: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  height: 837px;
 }
 /* Nav Styles */
 nav {
@@ -114,11 +118,11 @@ main {
   width: 1140px;
   margin: 0 auto;
 }
+
 /* About Section */
 #about {
   width: 1140px;
   height: 550px;
-  margin: 130px auto;
   padding: 130px 100px;
   text-align: center;
   border-radius: 10px;
@@ -145,4 +149,160 @@ main {
 .item-description {
   font-size: 20px;
   font-weight: bold;
+}
+
+/* What i do Section */
+#skill {
+  text-align: center;
+}
+#skill .skill-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#skill .skill-description {
+  font-size: 18px;
+  line-height: 30px;
+  width: 909px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.skill-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.skill-card-container .skill-card {
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  text-align: left;
+}
+.skill-card-container .skill-card img {
+  width: 44px;
+  margin-bottom: 10px;
+}
+.skill-card-container .skill-card .skill-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.skill-card-container .skill-card .skill-card-description {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* Resume Section */
+#resume {
+  margin-top: 0;
+}
+#resume .resume-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.resume-column-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.resume-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.resume-column .resume-column-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.resume-column .resume-column-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.resume-column .resume-column-box .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.resume-column .resume-column-box .subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume-column .resume-column-box .description {
+  font-size: 16px;
+  line-height: 28px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+#resume .resume-button {
+  width: 100%;
+  text-align: center;
+}
+#resume .resume-button {
+  width: 250px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Footer Section */
+footer {
+  width: 100%;
+  height: 780px;
+  background: #FFF8F3;
+  padding: 100px 0;
+}
+footer .footer-container {
+  width: 1140px;
+  margin: 0 100px 0 200px;
+  display: flex;
+  gap: 20px;
+}
+footer .footer-content {
+  width: 50%;
+}
+footer .footer-content .footer-title{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+footer .footer-content .footer-description {
+  width: 550px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+footer .footer-social {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+footer .footer-social img {
+  width: 24px;
+}
+footer form {
+  width: 50%;
+}
+footer form .form-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+footer form input {
+  padding: 18px 30px;
+  font-size: 16px;
+  border: none;
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
+}
+footer form textarea {
+  padding: 18px 30px;
+  font-size: 16px;
+  border: none;
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
 }
