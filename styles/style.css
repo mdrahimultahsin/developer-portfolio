@@ -306,6 +306,8 @@ footer form textarea {
 .hide {
   display: none;
 }
+
+
 /* Mobile Screen Styles*/
 @media screen and (max-width: 576px) {
   body section {
@@ -387,6 +389,123 @@ footer form textarea {
   }
   .resume-column , .resume-column-box {
     padding: 0 5px;
+  }
+  .description,.skill-description,.about-description {
+    max-width: 100%;
+  }
+  /* Footer */
+  footer {
+    padding: 40px 0;
+    height: auto;
+  }
+  .footer-container {
+    max-width: 100%;
+    flex-direction: column;
+    margin: 0 !important;
+    padding: 0 20px;
+    gap: 20px;
+  }
+  .footer-description {
+    max-width: 95%;
+  }
+  footer .footer-content {
+    width: 100%;
+  }
+  footer form {
+    width: 100%;
+  }
+  form input,
+  form textarea {
+    padding: 0 20px;
+    width: calc(100% - 40px);
+  }
+}
+
+/* Tablet Screen */
+@media screen and (min-width:577px) and (max-width:990px) {
+  main {
+    width: 100%;
+    margin: 0;
+  }
+  header {
+    width: 100%;
+    background-image: none;
+    background: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+  background-position: bottom right;
+  }
+  nav {
+    padding: 0 40px;
+    justify-content: space-around;
+    gap: 200px;
+    margin: 20px 0px;
+  }
+  nav ul {
+    width: 95%;
+    justify-content: space-between;
+  }
+  nav ul li a {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  .banner {
+    width: 100%;
+    padding-left: 40px;
+    margin: 50px 0;
+    flex-direction: column;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-img img {
+    float: right;
+    width: 80%;
+  }
+  .banner-description {
+    width: 95% !important;
+  }
+  .banner-content button {
+    margin-right: 10px;
+  }
+  #about {
+  width: 100%;
+  height: auto;
+  padding: 100px 40px;
+  margin-top: 0;
+  }
+  .about-item-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+  }
+  #skill {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .skill-card-container{
+    flex-direction: column;
+  }
+  #resume {
+    width: 100% !important;
+    padding: 0 40px;
+  }
+  .resume-column-container {
+    width: 100% !important;
+    gap: 20px;
+  }
+  .resume-column {
+    gap: 10px;
+  }
+  .resume-column .resume-column-title {
+    margin-bottom: 20px;
+  }
+  .resume-column .resume-column-box {
+    gap: 10px;
+  }
+  .resume-column .resume-column-box .description {
+    width: 100%;
   }
   .description,.skill-description,.about-description {
     max-width: 100%;
